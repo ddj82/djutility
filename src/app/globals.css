@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* 기본값 */
+    --brand: #3b82f6;
+    --brand-02: #a2c1f5;
+    --brand-01: #70a2f4;
+    --brand-10: #0562f9;
+    --brand-20: #004dcb;
+}
+
+.title-text {
+    @apply text-xxl font-bold flex-center;
+}
