@@ -11,14 +11,10 @@ export default function Main() {
     return (
         <div className="p-4">
             <li>
-                <Link href="/tools/button">
-                    button
-                </Link>
+                <Link href="/tools/button">button</Link>
             </li>
             <li>
-                <Link href="/tools/list">
-                    list
-                </Link>
+                <Link href="/tools/list">list</Link>
             </li>
         </div>
     );

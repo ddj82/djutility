@@ -6,7 +6,8 @@
     "dev": "next dev -p 8022",
     "build": "next build",
     "start": "next start -p 8022",
-    "lint": "eslint"
+    "lint": "eslint",
+    "export": "next export"
   },
   "dependencies": {
     "dayjs": "^1.11.14",
