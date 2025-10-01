@@ -14,12 +14,8 @@
 }
 
 :root {
-    /* 1) 기본 폰트 스택을 별도의 fallback 변수로 분리 */
+    /* 기본 폰트 스택을 별도의 fallback 변수로 분리 */
     --app-font-fallback: system-ui, -apple-system, sans-serif;
-    --app-font: var(--font-gowun), var(--app-font-fallback); /* 기본값 */
-
-    /* 2) 실제로 사용할 변수는 기본값을 fallback으로 채움 */
-    --app-font: var(--app-font-fallback);
 
     /* 색상 기본값 */
     --brand: #3b82f6;
@@ -29,9 +25,10 @@
     --brand-20: #004dcb;
 }
 
-/* 3) 전역 적용 */
+/* 폰트 적용 */
 body {
-    font-family: var(--app-font);
+    /* 기본으로 GowunDodum 적용 */
+    font-family: var(--font-gowun), var(--app-font-fallback);
 }
 
 /* 4) data-font 속성에 따라 폰트 변경 */
