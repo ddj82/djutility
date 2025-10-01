@@ -5,13 +5,15 @@ import Link from "next/link";
 export default function Main() {
 
     return (
-        <div className="p-4">
-            <li>
-                <Link href="/tools/button">button</Link>
-            </li>
-            <li>
-                <Link href="/tools/list">list</Link>
-            </li>
+        <div>
+            <ul>
+                <li>
+                    <Link href="/tools/alert" className="underline">Alert</Link>
+                </li>
+                <li>
+                    <Link href="/tools/list" className="underline">list</Link>
+                </li>
+            </ul>
         </div>
     );
 };
