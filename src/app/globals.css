@@ -5,27 +5,28 @@
 @font-face {
     font-family: "GowunDodum";
     font-weight: normal;
-    src: url("../fonts/GowunDodum.woff2") format("woff2");
+    src: url("/fonts/GowunDodum.woff2") format("woff2");
     font-display: swap;
 }
 @font-face {
     font-family: "MaruBuri";
     font-weight: normal;
-    src: url("../fonts/MaruBuri.woff2") format("woff2");
+    src: url("/fonts/MaruBuri.woff2") format("woff2");
     font-display: swap;
 }
 @font-face {
     font-family: "OmyuPretty";
     font-weight: normal;
-    src: url("../fonts/OmyuPretty.woff2") format("woff2");
+    src: url("/fonts/OmyuPretty.woff2") format("woff2");
     font-display: swap;
 }
 @font-face {
     font-family: "LeeSeoyoon";
     font-weight: normal;
-    src: url("../fonts/LeeSeoyoon.woff2") format("woff2");
+    src: url("/fonts/LeeSeoyoon.woff2") format("woff2");
     font-display: swap;
 }
+
 
 /* 1) 기본 폰트 스택을 별도의 fallback 변수로 분리 */
 :root {

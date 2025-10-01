@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Set BASE_PATH (project repo only)
+        run: echo "NEXT_PUBLIC_BASE_PATH=djutility" >> $GITHUB_ENV
+
       - name: Build
         run: npm run build
 
