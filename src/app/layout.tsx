@@ -35,14 +35,17 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
             lang="ko"
             className={`${gowunDodum.variable} ${maruBuri.variable} ${omyuPretty.variable} ${leeSeoyoon.variable}`}
         >
-            <body>
-                <FontProvider>
-                    <Header/>
-                    <div className="container mx-auto">
-                        <main className="p-4">{children}</main>
-                    </div>
-                </FontProvider>
-            </body>
+        <body>
+        <head>
+            <title>DJ Utility</title>
+        </head>
+        <FontProvider>
+            <Header/>
+            <div className="container mx-auto">
+                <main className="p-4">{children}</main>
+            </div>
+        </FontProvider>
+        </body>
         </html>
     );
 }
