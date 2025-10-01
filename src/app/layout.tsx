@@ -2,6 +2,15 @@ import "./globals.css";
 import Header from "@/components/common/Header";
 import localFont from 'next/font/local'
 import FontProvider from "@/app/FontProvider";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'DJ Utility',
+    // description: '설명을 여기에 작성',
+    // icons: {
+    //     icon: '/favicon.ico',
+    // },
+}
 
 const gowunDodum = localFont({
     src: '../../public/fonts/GowunDodum.woff2',
