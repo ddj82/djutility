@@ -8,14 +8,14 @@ export default function Main() {
     return (
         <div>
             <ul className="font-bold underline">
-                <li>
+                <li className="w-fit">
                     <Link href="/tools/alert">
                         <span className="flex justify-start items-center">
                             <Dot/>Alert
                         </span>
                     </Link>
                 </li>
-                <li>
+                <li className="w-fit">
                     <Link href="/tools/list">
                         <span className="flex justify-start items-center">
                             <Dot/>List

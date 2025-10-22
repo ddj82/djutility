@@ -13,9 +13,9 @@ export default function Alert() {
     
     return (
         <div>
-            <div className="title-text">공용 알림창</div>
+            <div className="title-text mb-10">공용 알림창</div>
             <div className="mb-4">
-                <div className="font-bold">- 색상 교체</div>
+                <div className="font-bold">&lt;색상 교체&gt;</div>
                 <div className="flex gap-2 mt-2 text-xs md:text-base">
                     <button
                         type="button"
@@ -45,7 +45,7 @@ export default function Alert() {
             <div className="mt-10">
                 <div className="font-bold md:text-lg">&lt;Alert, Confirm&gt;</div>
 
-                <div className="mt-2 text-sm md:text-base">
+                <div className="mt-4 text-sm md:text-base">
                     <div className="font-bold">- 속성</div>
                     <ul className="space-y-2 mt-2">
                         <li>
@@ -72,42 +72,45 @@ export default function Alert() {
                     </ul>
                 </div>
 
-                <div className="mt-2 w-full flex flex-col md:flex-row gap-4">
-                    <div className="md:w-1/3">
-                        <div className="bg-white rounded-lg p-4 shadow-lg">
-                            <div className="mb-2 whitespace-pre-line">content</div>
-                            <div>
-                                {/* alert 창 */}
-                                <div className="flex justify-end gap-2">
-                                    <button
-                                        type="button"
-                                        className="rounded-lg p-2 px-4 w-fit confirm-btn"
-                                    >
-                                        확인
-                                    </button>
+                <div className="mt-4">
+                    <div className="font-bold">- 미리보기</div>
+                    <div className="mt-2 w-full flex flex-col md:flex-row gap-4">
+                        <div className="md:w-1/3">
+                            <div className="bg-white rounded-lg p-4 shadow-lg">
+                                <div className="mb-2 whitespace-pre-line">내용(content)</div>
+                                <div>
+                                    {/* alert 창 */}
+                                    <div className="flex justify-end gap-2">
+                                        <button
+                                            type="button"
+                                            className="rounded-lg p-2 px-4 w-fit confirm-btn"
+                                        >
+                                            확인
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="md:w-1/3">
-                        <div className="bg-white rounded-lg p-4 shadow-lg">
-                            <div className="mb-2 whitespace-pre-line">content</div>
-                            <div>
-                                {/* confirm 창 */}
-                                <div className="flex justify-end gap-2">
-                                    <button
-                                        type="button"
-                                        className="rounded-lg p-2 px-4 w-fit confirm-btn"
-                                    >
-                                        확인
-                                    </button>
-                                    <button
-                                        type="button"
-                                        className="rounded-lg p-2 px-4 w-fit cancel-btn"
-                                    >
-                                        취소
-                                    </button>
+                        <div className="md:w-1/3">
+                            <div className="bg-white rounded-lg p-4 shadow-lg">
+                                <div className="mb-2 whitespace-pre-line">내용(content)</div>
+                                <div>
+                                    {/* confirm 창 */}
+                                    <div className="flex justify-end gap-2">
+                                        <button
+                                            type="button"
+                                            className="rounded-lg p-2 px-4 w-fit confirm-btn"
+                                        >
+                                            확인
+                                        </button>
+                                        <button
+                                            type="button"
+                                            className="rounded-lg p-2 px-4 w-fit cancel-btn"
+                                        >
+                                            취소
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +118,7 @@ export default function Alert() {
                 </div>
 
                 <div className="mt-4">
-                    <div className="font-bold">- 실제 적용</div>
+                    <div className="font-bold">- 실제 적용 (클릭)</div>
                     <div className="mt-2 flex flex-row gap-4">
                         <button
                             type="button"

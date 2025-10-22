@@ -42,7 +42,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
         <FontProvider>
             <Header/>
             <div className="container mx-auto">
-                <main className="p-4">{children}</main>
+                <main className="p-4 mb-10">{children}</main>
             </div>
         </FontProvider>
         </body>

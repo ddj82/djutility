@@ -67,3 +67,7 @@ html[data-font="LeeSeoyoon"] {
 .modal-animation-ease-in {
     animation: modal-fade-in 0.3s ease-in forwards;
 }
+
+.scale-102:hover {
+    transform: scale(1.02);
+}
